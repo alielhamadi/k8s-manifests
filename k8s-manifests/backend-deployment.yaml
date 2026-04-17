@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: elhamadiinnovator/appagrogitops-backend:v3
+          image: elhamadiinnovator/appagrogitops-backend:v5
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
