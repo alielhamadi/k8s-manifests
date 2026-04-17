@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -14,6 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: elhamadiinnovator/backend:latest
+          image: elhamadiinnovator/appagrogitops-backend:v3
+          imagePullPolicy: Always
           ports:
             - containerPort: 9000

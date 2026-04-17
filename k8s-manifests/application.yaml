@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/alielhamadi/k8s-manifests
+    repoURL: https://github.com/alielhamadi/k8s-manifests.git
     targetRevision: main
-    path: .
+    path: k8s-manifests   # ✅ IMPORTANT
 
   destination:
     server: https://kubernetes.default.svc
