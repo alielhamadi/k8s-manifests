@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: elhamadiinnovator/frontend:latest
+          image: elhamadiinnovator/appagrogitops-frontend:v2
           ports:
             - containerPort: 3000
