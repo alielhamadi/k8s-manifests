@@ -19,11 +19,3 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
-          # AJOUTEZ CETTE SECTION :
-          env:
-            - name: MONGO_URI
-              value: "mongodb://mongo-service:27017/employes_db"
-            - name: PORT
-              value: "9000"
-            - name: NODE_ENV
-              value: "development"
